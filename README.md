@@ -28,7 +28,7 @@ This project implements an in-memory key-value database in C++. The database sup
 2. Navigate to the project directory:
 
     ```bash
-    cd path/Data-Processing-and-Storage
+    cd Data-Processing-and-Storage
     ```
 
 ## Usage
