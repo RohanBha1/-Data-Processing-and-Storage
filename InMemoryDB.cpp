@@ -4,7 +4,7 @@
 
 #include "InMemoryDB.h"
 
-int InMemoryDB::get(const std::string &key) {
+int InMemoryDB::get(const string &key) {
     if(data.find(key) == data.end()){
         return NULL;
     }
@@ -13,7 +13,7 @@ int InMemoryDB::get(const std::string &key) {
     }
 }
 
-void InMemoryDB::put(const std::string &key, int val) {
+void InMemoryDB::put(const string &key, int val) {
     if (transactions.empty()) {
         throw runtime_error("Transaction not in progress");
     } else {

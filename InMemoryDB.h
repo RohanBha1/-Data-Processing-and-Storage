@@ -15,7 +15,7 @@ using namespace std;
 class InMemoryDB {
 private:
     unordered_map<string, int> data;  // Main data store
-    stack<unordered_map<string, int>> transactions;  // Stack to handle transactions
+    stack<unordered_map<string, int> > transactions;  // Stack to handle transactions
 
 public:
     int get(const string &key);

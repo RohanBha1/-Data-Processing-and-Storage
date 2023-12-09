@@ -35,14 +35,22 @@ This project implements an in-memory key-value database in C++. The database sup
 ### Dislclaimer
 For the get(value) function if your key is not in the main data store the value for null that is returned is 0, so keep that in mind when using this program.
 ### Changing the main
-Open the project in the text editor of your choosing, and make whatever changes to main.cpp you desire.
+Open the project in the text editor of your choosing, and make whatever changes to main.cpp you desire. You can also make changes in the terminal using the command:
+```bash
+nano main.cpp
+```
 ### Running the Code
 
-To compile and run the code, execute the following commands:
+To compile and run the code run:
 
 ```bash
-g++ -o main main.cpp InMemoryDB.cpp
+make
 ./main
+```
+
+When you're down to remove the executable created run:
+```bash
+make clean
 ```
 
 ## Assignment Modifications

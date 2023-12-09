@@ -7,8 +7,6 @@ int main() {
 
 // should return null, because A doesn’t exist in the DB yet
     cout << inmemoryDB.get("A") << endl;
-    inmemoryDB.begin_transaction();
-    inmemoryDB.begin_transaction();
 
 // should throw an error because a transaction is not in progress
     //inmemoryDB.put("A", 5);
