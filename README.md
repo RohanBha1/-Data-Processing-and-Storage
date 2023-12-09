@@ -32,8 +32,7 @@ This project implements an in-memory key-value database in C++. The database sup
     ```
 
 ## Usage
-
-###Dislclaimer
+### Dislclaimer
 For the get(value) function if your key is not in the main data store the value for null that is returned is 0, so keep that in mind when using this program.
 ### Changing the main
 Open the project in the text editor of your choosing, and make whatever changes to main.cpp you desire.
