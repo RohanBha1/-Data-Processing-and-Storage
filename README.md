@@ -48,7 +48,7 @@ make
 ./main
 ```
 
-When you're down to remove the executable created run:
+When you're done in order to remove the executable run:
 ```bash
 make clean
 ```
